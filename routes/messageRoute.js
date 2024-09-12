@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   res.status(200).json({ message: "success" });
-  res.send("API is running");
+  // res.send("API is running");
 });
 
 router.post("/", async (req, res) => {
