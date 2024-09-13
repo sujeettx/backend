@@ -8,7 +8,7 @@ import messageRouter from './routes/messageRoute.js';
 connectDb();
 app.use(cors());
 const corsOptions = {
-  origin: 'https://portfolio-xwxo-git-main-sujs-projects-2b2a6128.vercel.app', // Replace with your frontend URL
+  origin: 'https://portfolio-wbqo.vercel.app/', // Replace with your frontend URL
 };
 app.use(cors(corsOptions));
 app.use(express.json());
